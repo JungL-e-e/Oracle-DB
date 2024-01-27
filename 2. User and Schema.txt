@@ -1,0 +1,25 @@
+1. Schema
+	데이터들을 정리한 table 들을 grouping 하는 directory
+2. User
+	사용자에 따라 사용할 수 있는 권한과, 사용 가능한 Schema 를 정할 수 있다.
+
+3. User, Schema 생성
+	Enter user-name: sys AS SYSDBA
+	Enter password:
+	* 관리자로서 로그인 
+
+CREATE USER junglee IDENTIFIED BY 0412;		// junglee 라는 사용자를 0412 라는 비밀번호를 사용하여 만듬
+
+* ORA-65096: invalid common user or role name 에러
+	계정명 앞에 C## 을 붙이기
+	ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE; 수행하기
+
+* 생성되면 junglee 라는 schema도 생성된 것
+
+4. User 에게 권한주기 
+* 새로 만든 User 에게 권한을 주지 않으면 로그인 자체가 안된다.
+
+SQL> GRANT DBA (Database Admin) TO junglee;
+	junglee 에게 어드민 권한을 준다.
+
+>>> Grant succeeded.

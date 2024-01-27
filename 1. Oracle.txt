@@ -1,0 +1,17 @@
+1. Oracle
+	데이터베이스 시스템은 여러 종류가 있다
+	ex)	Graph, Document, Object, Hierarchical, Key-Value, Relational
+
+* 오라클은 Relational 데이터베이스 시스템이다
+* 관계형 데이터 베이스를 한마디로 나타내면 표이다. 
+	(데이터를 x, y 축으로 표현, 다시말해 열과 행으로 2차원적으로 표현가능하면 정보를 쉽게 다룰 수 있다.)
+
+2. Oracle Price - 오라클의 가격정책
+	1. Edition	- Express 공짜(제한적)
+			- Personal
+			- Standard
+			- Enterprise
+			내림차순으로 가격과 기능이 오른다.
+
+	2. License	- Named user plus	- 데이터베이스를 사용하는 컴퓨터가 몇대인가.
+			- Processor		- 컴퓨터의 CPU의 성능에 따라

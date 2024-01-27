@@ -1,0 +1,19 @@
+*** create table sql references oracle 검색
+
+1. Column (열 - 세로)
+
+2. Row (행 - 가로)
+
+3. Create Table
+
+CREATE TABLE topic (
+	id NUMBER(데이터 타입) NOT NULL,	// NOT NULL = id 값은 무조건 있어야한다
+	title VARCHAR2(50) NOT NULL,	// VARCHAR2(50) =  최대 50 글자
+	description VARCHAR(4000) NULL(or default),	// NULL or 공백 = description 값은 필수는 아니다.
+	created DATE NOT NULL,
+);
+
+>>> Table Created.
+
+4. Oracle table list (Table 목록 조회)
+ 

@@ -1,0 +1,19 @@
+1. 데이터베이스란?
+	정보화 시대에서 수많은 데이터를 사용하여 여러가지 기술에 접목해 있다.
+	ex)	빅데이터, ai, 전산, 계산 etc...
+	파일이라는 좋은 데이터 저장기술이 있지만, 파일은 보안성과 편리성이 그다지 좋지 않다. 그 기술을 전문적으로 해주는 것이
+	데이터베이스이다
+ex)	 MySQL, Oracle, SQL Server, PostgreSQL, MongoDB, Cassandra etc...
+* 종류마다 다 기능이 다르므로 자기와 맞는 데이터베이스를 사용하자
+
+2. 데이터베이스의 본질
+	input	- Create
+		- Update
+		- Delete
+
+	output	- Read
+* 이것만 기억하자(CRUD)
+
+3. File vs Database
+	File > SpreadSheet > Database
+* SpreadSheet 도 데이터 베이스와 본질은 비슷하다 (Exel 등)
